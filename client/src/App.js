@@ -4,23 +4,21 @@ import {
   RouterProvider,
   Outlet
 } from "react-router-dom";
-import Home from './Pages/Home/Home';
-import Products from "./Pages/Products/Products";
-import Product from "./Pages/Product/Product";
 import Navbar from './Components/Navbar/Navbar';
+import Home from './Pages/Home/Home';
+import Product from './Pages/Product/Product';
+import Products from './Pages/Products/Products';
 import Footer from './Components/Footer/Footer';
-import './app.scss';
 
 const Layout = () => {
   return (
-    <div className='app'>
+    <div>
       <Navbar />
       <Outlet />
       <Footer />
     </div>
   )
 }
-
 const router = createBrowserRouter([
   {
     path: '/',
@@ -44,7 +42,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <RouterProvider router={router} />
     </div>
   );

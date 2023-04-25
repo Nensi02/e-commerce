@@ -1,12 +1,12 @@
 import React from 'react';
-import './Footer.scss';
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="top">
         <div className="item">
-          <h1>Categories</h1>
+          <h1>Categoried</h1>
           <span>Women</span>
           <span>Men</span>
           <span>Shoes</span>
@@ -23,24 +23,20 @@ const Footer = () => {
         </div>
         <div className="item">
           <h1>About</h1>
-          <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum laboriosam cupiditate ad adipisci accusamus assumenda fugit nam? Facere quod dolore amet doloribus, praesentium iure eos ut perferendis, dolores at nesciunt?</span>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est minima maiores blanditiis, fugit reiciendis, voluptatibus aspernatur accusamus eaque doloribus quos exercitationem laudantium soluta enim autem asperiores temporibus dolor amet eveniet.</span>
         </div>
         <div className="item">
           <h1>Contact</h1>
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sapiente ullam. Beatae repellat amet incidunt provident eum modi porro, voluptatibus quibusdam, accusamus deleniti dicta sit tempora autem, earum eaque a.</span>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est minima maiores blanditiis, fugit reiciendis, voluptatibus aspernatur accusamus eaque doloribus quos exercitationem laudantium soluta enim autem asperiores temporibus dolor amet eveniet.</span>
         </div>
       </div>
       <div className="bottom">
         <div className="left">
-          <div className="logo">
-            Chauhan Store
-          </div>
-          <div className="copyright">
-            &copy; CopyRight 2023. All Rights Reserved
-          </div>
+          <span className="logo">Chauhan Store</span>
+          <span className="copyright">&copy; CopyRights 2023. All Rights Reserved.</span>
         </div>
         <div className="right">
-          <img src="/img/payment.png" alt="" className="" />
+          <img src="/img/payment.png" alt="" />
         </div>
       </div>
     </div>

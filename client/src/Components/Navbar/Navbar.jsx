@@ -4,13 +4,13 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import { Link } from 'react-router-dom';
-import "./Navbar.scss";
+import { Link } from 'react-router-dom'
+import "./Navbar.css"
 
-const Navbar = () => {
+function Navbar() {
   return (
-    <div className='navbar'>
-        <div className="wrapper">
+    <div>
+      <div className="wrapper">
             <div className="left">
                 <div className="item">
                     <img src="/img/en.png" alt="" />
